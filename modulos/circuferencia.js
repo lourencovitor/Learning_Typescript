@@ -1,16 +1,9 @@
-System.register([], function (exports_1, context_1) {
-    "use strict";
-    var PI;
-    var __moduleName = context_1 && context_1.id;
-    function areaCircunferencia(raio) {
-        return raio * raio * PI;
-    }
-    exports_1("areaCircunferencia", areaCircunferencia);
-    return {
-        setters: [],
-        execute: function () {
-            exports_1("PI", PI = 3.14);
-        }
-    };
-});
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.areaCircunferencia = exports.PI = void 0;
+exports.PI = 3.14;
+function areaCircunferencia(raio) {
+    return raio * raio * exports.PI;
+}
+exports.areaCircunferencia = areaCircunferencia;
 //# sourceMappingURL=circuferencia.js.map

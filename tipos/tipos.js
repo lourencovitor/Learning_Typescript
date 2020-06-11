@@ -29,7 +29,6 @@ endereco = ["Rua dos bobos", 1260, "Bloco 6"];
 console.log(endereco);
 // Enums
 var Cor;
-// Enums
 (function (Cor) {
     Cor[Cor["Cinza"] = 0] = "Cinza";
     Cor[Cor["Verde"] = 100] = "Verde";

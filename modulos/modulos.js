@@ -1,20 +1,15 @@
-System.register(["./retangulo", "./circuferencia"], function (exports_1, context_1) {
-    "use strict";
-    var retangulo_1, circuferencia_1;
-    var __moduleName = context_1 && context_1.id;
-    return {
-        setters: [
-            function (retangulo_1_1) {
-                retangulo_1 = retangulo_1_1;
-            },
-            function (circuferencia_1_1) {
-                circuferencia_1 = circuferencia_1_1;
-            }
-        ],
-        execute: function () {
-            console.log(retangulo_1.areaRetangulo(7, 8));
-            console.log(circuferencia_1.areaCircunferencia(2));
-        }
-    };
-});
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+// import { areaRetangulo } from "./retangulo";
+// import { areaCircunferencia } from "./circuferencia";
+const retangulo_1 = __importDefault(require("./retangulo"));
+const circuferencia_1 = require("./circuferencia");
+console.log("Módulo carregado...");
+console.log(retangulo_1.default(7, 8));
+console.log(circuferencia_1.areaCircunferencia(2));
+const { digaOi } = require("./novo");
+console.log(digaOi("Vitor"));
 //# sourceMappingURL=modulos.js.map
